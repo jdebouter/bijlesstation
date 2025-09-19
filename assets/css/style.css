@@ -332,7 +332,7 @@ main {
 }
 
 .sidebar.active {
-    max-height: 460px;
+    max-height: 560px;
 }
 
 .sidebar-info {
@@ -2042,8 +2042,8 @@ textarea.form-input::-webkit-resizer {
 
 .avatar-box img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 .title {
