@@ -59,11 +59,10 @@ hsl(22, 34%, 70%)
 --smoky-black: var(--light-beige);
 --white-1: hsl(0, 0%, 10%);
 --white-2: hsl(0, 0%, 20%);
---orange-yellow-crayola: hsl(45, 100%, 72%);
---vegas-gold: hsl(45, 54%, 58%);
 --light-gray: hsl(0, 0%, 40%);
 --light-gray-70: hsla(0, 0%, 40%, 0.7);
 --bittersweet-shimmer: hsl(0, 43%, 41%);
+--reddish-orange: hsl(4, 92%, 69%);
 
 
 /* typography */
@@ -195,7 +194,7 @@ article {
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    color: var(--orange-yellow-crayola);
+    color: var(--reddish-orange);
     box-shadow: var(--shadow-1);
     z-index: 1;
 }
@@ -503,11 +502,11 @@ main {
 
 .navbar-link:hover,
 .navbar-link:focus {
-    color: var(--vegas-gold);
+    color: var(--reddish-orange);
 }
 
 .navbar-link.active {
-    color: var(--vegas-gold);
+    color: var(--reddish-orange);
 }
 
 /*-----------------------------------*\
