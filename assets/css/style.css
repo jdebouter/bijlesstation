@@ -354,7 +354,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--calm-reddish);
-  font-size: var(--fs-8);
+  font-size: var(--fs-3);
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
