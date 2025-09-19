@@ -1,327 +1,372 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-		<link rel="canonical" href="https://www.bijlesstation.nl/index.html" />
-        <title>Bijlesstation</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="canonical" href="https://www.bijlesstation.nl/index.html" />
+    <title>Bijlesstation</title>
 
-        <!--
-    - favicon
+    <!--
+  - favicon
   -->
-        <link
-            rel="shortcut icon"
-            href="./assets/images/logo.ico"
-            type="image/x-icon"
-        />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
 
-        <!--
-    - custom css link
+    <!--
+  - custom css link
   -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-        <!--
-    - google font link
+    <!--
+  - google font link
   -->
-        <link
-            rel="preconnect"
-            href="https://fonts.googleapis.com"
-        />
-        <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossorigin
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
+  <body>
+    <!--
+    - #MAIN
+    -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+      -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/sjon.jpg"
+              alt="Jonathan de Bouter"
+            </img>
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Jonathan de Bouter">
+              Jonathan <br> de Bouter
+            </h1>
+
+            <p class="title">
+              <u><b> Bijles docent</b></u> <br>
+              wiskunde, <br>
+              scheikunde, <br>
+              natuurkunde <br>
+              en rekenen <br>
+            </p>
+          </div>
+
+          <button
+            class="info_more-btn"
+            data-sidebar-btn
+          >
+            <span>Neem contact op!</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="mail-outline"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">
+                  Email
+                </p>
+                  
+                <a
+                  href="mailto:jdabouter@gmail.com"
+                  class="contact-link"
+                  >jdabouter@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="phone-portrait-outline"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">
+                  Telefoonnummer
+                </p>
+
+                <a
+                  href="tel:+31 6 18 23 32 85"
+                  class="contact-link"
+                  >+31 6 18 23 32 85</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="logo-euro"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">
+                  Tarief
+                </p>
+                
+                <a class="contact-link">€ 35,- per uur</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="location-outline"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">
+                   Locatie
+                </p>
+
+                <address>
+                  Amsterdam (Oost), Noord-Holland,
+                  Nederland
+                </address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+      -->
+
+      <div class="main-content">
         <!--
-		- #MAIN
-		-->
+        - #NAVBAR
+        -->
 
-        <main>
-            <!--
-			- #SIDEBAR
-			-->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Over mij</button>
+            </li>
 
-            <aside class="sidebar active" data-sidebar>
-                <div class="sidebar-info">
-                    <figure class="avatar-box">
-                        <img
-                            src="./assets/images/sjon.jpg"
-                            alt="Jonathan D.A. de Bouter"
-                        </img>
-                    </figure>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>CV</button>
+            </li>
 
-                    <div class="info-content">
-                        <h1 class="name" title="Jonathan de Bouter">
-                            Jonathan <br> de Bouter
-                        </h1>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-                        <p class="title">
-                            <u><b> Bijles docent</b></u> <br>
-                            wiskunde, <br>
-                            scheikunde, <br>
-                            natuurkunde <br>
-							en rekenen <br>
-                        </p>
-                    </div>
+        <!--
+        - #ABOUT
+        -->
+        
+        <article class="about  active" data-page="over mij">
+          
+          <header>
+            <h2 class="h2 article-title">
+              Over mij
+            </h2>
+          </header>
 
-                    <button
-                        class="info_more-btn"
-                        data-sidebar-btn
-                    >
-                        <span>Neem contact op!</span>
+          <section class="about-text">
+            <p>
+              Ik geef een paar jaar veel bijles in Amsterdam in wiskunde, scheikunde, natuurkunde en rekenen voor basisscholieren.
+              Daarnaast ben ik een docent in opleiding op het Pieter Nieuwland College.   
+            </p>
 
-                        <ion-icon name="chevron-down"></ion-icon>
-                    </button>
+            <p>             
+              Wanneer ik vertel dat ik les geef in wiskunde, dan delen mensen vaak hun verhalen van misère en ellende omtrent wiskunde.
+              Wiskundeangst is een ding, en daarnaast is het vaak enorm ploeteren, en frustrerend als je het niet snapt.
+            </p>
+
+            <p> 
+              Daarom heb ik bij mijn leerlingen ook veel aandacht voor het emotionele aspect van wiskunde maken en leren (of bij de andere bèta vakken).
+              Ik zie mezelf graag als prettig in de omgang en empathisch. Ik vraag hoe het voor ze is, stel vragen zodat ze zich  
+              bewust worden van gevoelens zoals angst, frustratie, ideeën van falen of misschien een neiging tot perfectionisme. 
+              En vervolgens doen we daar wat mee. Ik ben geen psycholoog, maar geduldig luisteren en ruimte maken voor een gesprek hierover op meta-niveau doet al heel veel.
+              En verder leg ik altijd uit dat er geen domme vragen zijn, dat ploeteren erbij hoort, en dat fouten maken een onvermijdelijk en vaak productief onderdeel is van het leerproces.              
+            </p>
+            
+            <p>
+              Mijn ervaring is dat leerlingen de bijlessen vaak zelfs leuk gaan vinden, 
+              als ik naast de inhoud ook help met plannen en ruimte maakt voor bovengenoemde zaken.
+            </p>
+
+            <p>
+              
+            </p>
+          </section>
+
+          <!--
+          - service
+          -->
+
+          <section class="service">
+            <h3 class="h3 service-title">
+              Mijn diensten
+            </h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-home.svg"
+                    alt="design icon"
+                    width="40"
+                  />
                 </div>
 
-                <div class="sidebar-info_more">
-                    <div class="separator"></div>
+                <div class="service-content-box">
+                  <h4
+                    class="h4 service-item-title"
+                  >
+                    Bijles aan huis
+                  </h4>
 
-                    <ul class="contacts-list">
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon
-                                    name="mail-outline"
-                                ></ion-icon>
-                            </div>
-
-                            <div class="contact-info">
-                                <p class="contact-title">
-									Email
-                                </p>
-                                    
-                                <a
-                                    href="mailto:jdabouter@gmail.com"
-                                    class="contact-link"
-                                    >jdabouter@gmail.com</a
-                                >
-                            </div>
-                        </li>
-
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon
-                                    name="phone-portrait-outline"
-                                ></ion-icon>
-                            </div>
-
-                            <div class="contact-info">
-                                <p class="contact-title">
-                                    Telefoonnummer
-                                </p>
-
-                                <a
-                                    href="tel:+31 6 18 23 32 85"
-                                    class="contact-link"
-                                    >+31 6 18 23 32 85</a
-                                >
-                            </div>
-                        </li>
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon
-                                    name="logo-euro"
-                                ></ion-icon>
-                            </div>
-
-                            <div class="contact-info">
-                                <p class="contact-title">
-									Tarief
-                                </p>
-								
-								<a class="contact-link">€ 35,- per uur</a>
-                            </div>
-                        </li>
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon
-                                    name="location-outline"
-                                ></ion-icon>
-                            </div>
-
-                            <div class="contact-info">
-                                <p class="contact-title">
-                                   Locatie
-                                </p>
-
-                                <address>
-                                    Amsterdam (Oost), Noord-Holland,
-                                    Nederland
-                                </address>
-                            </div>
-                        </li>
-                    </ul>
+                  <p class="service-item-text">
+                    Ik kan bijvoorbeeld fietsen naar Amsterdam Centrum, Oost, Watergraafsmeer, 
+                    Duivendrecht, Diemen, de Rivierenbuurt, Noord (niet te ver van het IJ).
+                  </p>
                 </div>
-            </aside>
+              </li>
 
-            <!--
-			- #main-content
-			-->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-library.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-            <div class="main-content">
-                <!--
-				- #NAVBAR
-				-->
+                <div class="service-content-box">
+                  <h4
+                    class="h4 service-item-title"
+                  >
+                    Bijles in de bieb
+                  </h4>
 
-                <nav class="navbar">
-                    <ul class="navbar-list">
-                        <li class="navbar-item">
-                            <button
-                                class="navbar-link active"
-                                data-nav-link
-                            >
-                                <a href="./index.html">Over mij</a>
-                            </button>
-                        </li>
+                  <p class="service-item-text">
+                    Bijvoorbeeld in één van de vele OBA locaties in Amsterdam. 
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-                        <li class="navbar-item">
-                            <button
-                                class="navbar-link"
-                                data-nav-link
-                            >
+          <div class="service-icon-box">
+            <img
+              src="./assets/images/locomotive.png"
+              alt="Bijlesstation"
+              width=250
+            />
+          </div>
+        </article>
 
-                                <a href="./cv.html"> CV </a>
-                            </button>
-                        </li>
+        <article class="resume" data-page="cv">
+          <header>
+            <h2 class="h2 article-title">
+              Curriculum Vitae
+            </h2>
+          </header>
 
-                        <li class="navbar-item">
-                            <button
-                                class="navbar-link"
-                                data-nav-link
-                            >
-                                <a href="./contact.html"> Contact </a>
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
+          <section class="about-text">
+            <p>
+              In het verleden heb ik Neurobiologie gestudeerd, maar onderzoek leek me niks, en na een master Computational Science
+              ben ik ongeveer twee jaar lang een programmeur geweest, maar dat vond ik uiteindelijk ook niks. Er is gebleken dat ik
+              niet de hele dag in een kantoor kan zitten achter een scherm, helemaal niet om me met dat soort werk bezig te houden.
+              Vandaar dat ik een laterale move heb gemaakt, het onderwijs in.
+            
+              <br><br>
+              Mijn CV is te vinden op: 
+              <br><a href="https://www.linkedin.com/in/jonathan-de-bouter/">www.linkedin.com/in/jonathan-de-bouter/</a>
+              
+              <br>
+              En mijn hieronder mijn professionele levensloop in het Nederlands:
+              <br><br>
+              <embed src="./assets/pdf/CV_NL.pdf" type="application/pdf" width="100%" height="600px" />
+            </p>
+          </section>
+        </article>
 
-                <!--
-				- #ABOUT
-				-->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">
+              Contact
+            </h2>
+          </header>
 
-                <article class="about active" data-page="about">
-					
-                    <header>
-                        <h2 class="h2 article-title">
-                            Over mij
-                        </h2>
-                    </header>
+          <section class="about-text">
+            <p>
+              Ik woon in Amsterdam Oost op de Eerste Atjehstraat. 
+              <br><br>
+              Ik ben telefonisch te bereiken via telefoonnummer:   
+              <a
+                href="tel:+31 6 18 23 32 85"
+                class="contact-link"
+                >+31 6 18 23 32 85
+              </a>
+              <br>
+              Of op emailadres: 
+               <a
+                 href="mailto:jdabouter@gmail.com"
+                 class="contact-link"
+               >jdabouter@gmail.com
+               </a>
+              </p>
+          </section>
+        </article>
 
-                    <section class="about-text">
-                        <p>
-							Ik geef een paar jaar veel bijles in Amsterdam in wiskunde, scheikunde, natuurkunde en rekenen voor basisscholieren.
-							Daarnaast ben ik een docent in opleiding op het Pieter Nieuwland College.	
-                        </p>
 
-                        <p>							
-                            Wanneer ik vertel dat ik les geef in wiskunde, dan delen mensen vaak hun verhalen van misère en ellende omtrent wiskunde.
-							Wiskundeangst is een ding, en daarnaast is het vaak enorm ploeteren, en frustrerend als je het niet snapt.
-                        </p>
+    <!--
+    - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
 
-                        <p>	
-							Daarom heb ik bij mijn leerlingen ook veel aandacht voor het emotionele aspect van wiskunde maken en leren (of bij de andere bèta vakken).
-							Ik zie mezelf graag als prettig in de omgang en empathisch. Ik vraag hoe het voor ze is, stel vragen zodat ze zich  
-							bewust worden van gevoelens zoals angst, frustratie, ideeën van falen of misschien een neiging tot perfectionisme. 
-							En vervolgens doen we daar wat mee. Ik ben geen psycholoog, maar geduldig luisteren en ruimte maken voor een gesprek hierover op meta-niveau doet al heel veel.
-							En verder leg ik altijd uit dat er geen domme vragen zijn, dat ploeteren erbij hoort, en dat fouten maken een onvermijdelijk en vaak productief onderdeel is van het leerproces. 							
-                        </p>
-
-                        <p>
-                            
-                        </p>
-                    </section>
-
-                    <!--
-					- service
-					-->
-
-                    <section class="service">
-                        <h3 class="h3 service-title">
-                            Mijn diensten
-                        </h3>
-
-                        <ul class="service-list">
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img
-                                        src="./assets/images/icon-home.svg"
-                                        alt="design icon"
-                                        width="40"
-                                    />
-                                </div>
-
-                                <div class="service-content-box">
-                                    <h4
-                                        class="h4 service-item-title"
-                                    >
-                                        Bijles aan huis
-                                    </h4>
-
-                                    <p class="service-item-text">
-                                        Ik kan bijvoorbeeld fietsen naar Amsterdam Centrum, Oost, Watergraafsmeer, 
-										Duivendrecht, Diemen, de Rivierenbuurt, Noord (niet te ver van het IJ).
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img
-                                        src="./assets/images/icon-library.svg"
-                                        alt="Web development icon"
-                                        width="40"
-                                    />
-                                </div>
-
-                                <div class="service-content-box">
-                                    <h4
-                                        class="h4 service-item-title"
-                                    >
-                                        Bijles in de bieb
-                                    </h4>
-
-                                    <p class="service-item-text">
-                                        Bijvoorbeeld in één van de vele OBA locaties in Amsterdam. 
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-
-					<div class="service-icon-box">
-						<img
-							src="./assets/images/locomotive.png"
-							alt="Bijlesstation"
-							width=250
-						/>
-					</div>
-
-        <!--
-		- custom js link
-		-->
-        <script src="./assets/js/script.js"></script>
-
-        <!--
-		- ionicon link
-		-->
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-    </body>
+    <!--
+    - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
