@@ -587,6 +587,12 @@ main {
   #RESPONSIVE
 \*-----------------------------------*/
 
+@media (min-width: 200px) {
+	.info-content .name {
+  margin-left: 13px;
+}
+}
+
 /**
  * responsive larger than 450px screen
  */
@@ -822,6 +828,7 @@ height: 120px;
 }
 
   .avatar-box img {
+  height: 200px;
   width: 200px;
 }
 
@@ -1022,7 +1029,7 @@ height: 200px;
   .info-content .name {
   white-space: nowrap;
   text-align: center;
-
+  margin-left: 0px;
 }
 
   .info-content .title {
