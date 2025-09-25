@@ -4,17 +4,12 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
-const sidebarBtn = document.querySelector("[data-sidebar-btn]");
-
-// sidebar toggle functionality for mobile
-sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
 
 // custom select variables - add null checks
-const select = document.querySelector("[data-select]");
+const select      = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
+const selectValue = document.querySelector("[data-select-value]");
+const filterBtn   = document.querySelectorAll("[data-filter-btn]");
 
 // Only add event listener if select exists
 if (select) {
@@ -60,7 +55,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);   // don't scroll to top anymore
       } else {
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");

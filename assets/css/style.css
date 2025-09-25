@@ -58,6 +58,7 @@ hsl(22, 34%, 70%)
 --white-2: hsl(0, 0%, 20%);
 --light-gray: hsl(0, 0%, 40%);
 --light-gray-70: hsla(0, 0%, 40%, 0.7);
+--light-gray-85: hsla(0, 0%, 40%, 0.85);
 --bittersweet-shimmer: hsl(0, 43%, 41%);
 --reddish-orange: hsl(4, 92%, 69%);
 
@@ -139,7 +140,7 @@ textarea {
 }
 
 ::selection {
-  background: var(--calm-reddish);
+  background: var(--jet);
   color: var(--white-1));
 }
 
@@ -367,7 +368,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--calm-reddish);
+  color: var(--light-gray);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
