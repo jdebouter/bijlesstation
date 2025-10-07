@@ -1073,4 +1073,8 @@ height: 200px;
   justify-content: center;
 }
 
+.bold {
+  font-weight: 900;
+}
+
 }
