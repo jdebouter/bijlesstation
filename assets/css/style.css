@@ -523,6 +523,10 @@ main {
   margin-bottom: 15px;
 }
 
+.about-text b {
+  font-weight: 900;
+}
+
 /**
  * #service
  */
@@ -1071,10 +1075,6 @@ height: 200px;
 
   .social-list {
   justify-content: center;
-}
-
-.bold {
-  font-weight: 900;
 }
 
 }
