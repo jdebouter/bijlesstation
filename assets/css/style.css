@@ -107,7 +107,8 @@ hsl(22, 34%, 70%)
 
 a {
   text-decoration: none;
-color: inherit; 
+  color: blue;
+  text-decoration: underline;  
 }
 
 li {
